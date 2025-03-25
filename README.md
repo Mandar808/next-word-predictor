@@ -1,24 +1,48 @@
-# **Next-Word Predictor**  
-A neural network-based **Next-Word Predictor** that generates coherent text through sequence prediction. This project leverages **Natural Language Processing (NLP)** techniques using **NLTK** for tokenization and **TensorFlow** for building and training the model.  
+Next-Word Predictor
+Overview
+The Next-Word Predictor is a neural network-based model designed to generate the next word in a given text sequence. It utilizes Natural Language Processing (NLP) techniques for tokenization and sequence prediction. The project is implemented using TensorFlow and NLTK to enhance text generation capabilities.
 
-🔗 **Live Demo:** [Next-Word Predictor](https://next-word-predictor-6cwydcxxs3ahxldrrta69k.streamlit.app/)  
+Features
+Predicts the next word based on the given input text.
 
-## **Features**  
-- Predicts the next word in a given text sequence.  
-- Uses deep learning (Neural Networks) for sequence modeling.  
-- Tokenizes and processes input text using **NLTK**.  
-- Trained on a dataset to learn language patterns.  
-- Deployed using **Streamlit** for an interactive interface.  
+Uses NLTK for tokenization and preprocessing.
 
-## **Technologies Used**  
-- **Python**, **NLTK**, **TensorFlow/Keras**  
-- **NumPy & Pandas** (Data Handling)  
-- **Streamlit** (Deployment & UI)  
+Model trained using TensorFlow for sequence prediction.
 
-## **Installation**  
-Install dependencies:  
-```bash
-pip install -r requirements.txt
+Simple and interactive user interface using Streamlit.
 
-## **Run the application locally**:
-streamlit run app.py
+Installation
+Clone the repository and navigate to the project directory:
+
+bash
+Copy
+Edit
+git clone https://github.com/your-repo/next-word-predictor.git  
+cd next-word-predictor  
+Install Dependencies
+Run the following command to install the required dependencies:
+
+bash
+Copy
+Edit
+pip install -r requirements.txt  
+Usage
+Run the application locally using Streamlit:
+
+bash
+Copy
+Edit
+streamlit run app.py  
+How to Use
+Open the Streamlit app after running the above command.
+
+Enter a partial sentence in the input box.
+
+The model will predict and display the most probable next word.
+
+Future Enhancements
+Improve prediction accuracy using a larger dataset.
+
+Optimize the model using LSTM or Transformer-based architectures.
+
+Enhance the UI with additional interactive elements.
